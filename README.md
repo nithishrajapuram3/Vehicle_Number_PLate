@@ -37,12 +37,6 @@ The project developed using TensorFlow to detect the License Plate from a car an
 
 * Then the detected number plate is cropped using Tensorflow, By using the Google **Tesseract-OCR** (Package originally developed to scan hard copy documents to filter out the characters from it) the picture undergoes some coversions using **computer vision** package then the charcters are filtered out.
 
-#### CROP
-
-
-#### CONVERSION
-
-
 #### MOTION DETECTION PART
 
 * The basic motion capturing has been implemented to capture the picture of moving vehicle by using the **openCV** where the threshold of the camera is fixed (threshold value changes in according to frame's boundary area). If the vehicle touches the boundary the picture is captured. **(In progress)**
